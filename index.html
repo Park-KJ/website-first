@@ -1,26 +1,77 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C20WKZ40PR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-C20WKZ40PR"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-C20WKZ40PR');
 </script>
-    <title>Musician</title>
-    <meta charset="utf-8">
+<title>Musician</title>
+<meta charset="utf-8">
+<style>
+    body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    a {
+        color:darkgreen;
+        text-decoration:none;
+    }
+    li {
+        color:darkgreen;
+    }
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 3px solid darkgreen;
+        padding: 20px;
+        margin:0;
+    }
+    ol {
+        border-right: 3px solid darkgreen;
+        width: 200px;
+        margin: 0;
+    }
+    h3 {
+        margin: 0;
+        padding: 10px;
+    }
+    #list {
+        display: grid;
+        grid-template-columns: 270px 1fr;
+    }
+    #summary {
+        font-size: 12px;
+    }
+    #summary ul{
+        list-style: none;
+        font-size: 15px;
+        padding-left: 0;
+        line-height: 45px;
+        margin: 0;
+    }
+</style>
 </head>
 <body>
     <h1>Musician</h1>
-    <ol>
-        <h3><li><a href="1. Charlie Puth.html" target="_blank" title="Charlie Puth 보기">Charlie Puth</a></li></h3>
-        <h3><li><a href="2. Lennon Stella.html" target="_blank" title="Lennon Stella 보기">Lennon Stella</a></li></h3>
-        <h3><li><a href="3. Dabeull.html" target="_blank" title="Dabeull 보기">Dabeull</a></li></h3>
-    </ol>
-
+    <div id="list">
+        <ol>
+            <h3><li><a href="1. Charlie Puth.html" target="_blank" title="Charlie Puth 보기">Charlie Puth</a></li></h3>
+            <h3><li><a href="2. Lennon Stella.html" target="_blank" title="Lennon Stella 보기">Lennon Stella</a></li></h3>
+            <h3><li><a href="3. Dabeull.html" target="_blank" title="Dabeull 보기">Dabeull</a></li></h3>
+        </ol>
+        <div id="summary">
+            <ul>
+                <li>Debut : 2015 / Birth : 1991.12.2.</li>
+                <li>Debut : 2018 / Birth : 1999. 8. 13.</li>
+                <li>Debut : 2014 / Birth : -</li>
+        </ul>
+        </div>
+    </div>
 <br>
 <p><h3>뮤지션 리스트(상세설명 - 각 뮤지션 클릭)</h3></p>
 <br>
@@ -28,7 +79,7 @@
     <div id="disqus_thread"></div>
 <script>
     /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELO  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
     /*
     var disqus_config = function () {
