@@ -1,113 +1,77 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-C20WKZ40PR"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-C20WKZ40PR');
-</script>
-<title>Musician</title>
-<meta charset="utf-8">
-<style>
-    body {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    a {
-        color:darkgreen;
-        text-decoration:none;
-    }
-    li {
-        color:darkgreen;
-    }
-    h1 {
-        font-size: 45px;
-        text-align: center;
-        border-bottom: 3px solid darkgreen;
-        padding: 20px;
-        margin:0;
-    }
-    ol {
-        border-right: 3px solid darkgreen;
-        width: 200px;
-        margin: 0;
-    }
-    h3 {
-        margin: 0;
-        padding: 10px;
-    }
-    #list {
-        display: grid;
-        grid-template-columns: 270px 1fr;
-    }
-    #summary {
-        font-size: 12px;
-    }
-    #summary ul{
-        list-style: none;
-        font-size: 15px;
-        padding-left: 0;
-        line-height: 45px;
-        margin: 0;
-    }
-</style>
-</head>
-<body>
-    <h1>Musician</h1>
-    <div id="list">
+        <title>Musician</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                margin: 0;
+            }
+            h1 {
+                font-size: 55px;
+                text-align: center;
+                border-bottom: 3px solid darkgreen;
+                margin: 0;
+                padding: 20px;
+            }
+            ol {
+                color: darkgreen;
+                font-size: 20px;
+                border-right: 3px solid darkgreen;
+                margin: 0;
+                line-height: 40px;
+                padding-top: 10px;
+                border-bottom: 3px solid darkgreen;
+            }
+            ul {
+                list-style: none;
+                color: darkgreen;
+                font-size: 17px;
+                margin: 0;
+                padding-left: 20px;
+                line-height: 40px;
+                padding-top: 10px;
+                border-bottom: 3px solid darkgreen;
+                padding-bottom: 10px;
+            }
+            div {
+                display: grid;
+                grid-template-columns: 220px 1fr;
+            }
+            p {
+                font-size: 20px;
+                margin: 0;
+                padding-top: 30px;
+                padding-left: 10px;
+            }
+            a {
+                text-decoration: none;
+                color: darkgreen;
+                font-weight: bold;
+            }
+            span {
+                color: salmon;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Musician</h1>
+        <div>
         <ol>
-            <h3><li><a href="1. Charlie Puth.html" target="_blank" title="Charlie Puth 보기">Charlie Puth</a></li></h3>
-            <h3><li><a href="2. Lennon Stella.html" target="_blank" title="Lennon Stella 보기">Lennon Stella</a></li></h3>
-            <h3><li><a href="3. Dabeull.html" target="_blank" title="Dabeull 보기">Dabeull</a></li></h3>
+            <a href="1. Charlie Puth.html" title="Charlie Puth 상세보기" target="_blank"><li>Charlie Puth</li></a>
+            <a href="2. Lennon Stella.html" title="Lennon Stella 상세보기" target="_blank"><li>Lennon Stella</li></a>
+            <a href="3. Dabeull.html" title="Dabeull 상세보기" target="_blank"><li>Dabeull</li></a>
+            <a href="4. The Weeknd.html" title="The Weeknd 상세보기" target="_blank"><li>The Weeknd</li></a>
         </ol>
-        <div id="summary">
-            <ul>
-                <li>Debut : 2015 / Birth : 1991.12.2.</li>
-                <li>Debut : 2018 / Birth : 1999. 8. 13.</li>
-                <li>Debut : 2014 / Birth : -</li>
+        <ul>
+            <li>Debut : 2015 / Birth : 1991. 12. 2.</li>
+            <li>Debut : 2018 / Birth : 1999. 8. 13.</li>
+            <li>Debut : 2014 / Birth : -</li>
+            <li>Debut : 2011 / Birth : 1990. 2. 16.</li>
         </ul>
         </div>
-    </div>
-<br>
-<p><h3>뮤지션 리스트(상세설명 - 각 뮤지션 클릭)</h3></p>
-<br>
-<p>
-    <div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELO  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://musician-2.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</p>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/645b1d2a6a9aad4bc579dd33/1h01ujrgt';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
-</body>
+        <p>
+        <Strong>상세 설명 : <span>각 뮤지션 클릭</span></Strong>
+        </p>
+    </body>
 </html>
